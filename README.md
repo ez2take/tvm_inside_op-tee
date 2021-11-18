@@ -6,7 +6,7 @@ Run inference of machine lerning inside op-tee
 ### Replace rootfs with more useful one
 The rootfs provided by buildroot of op-tee has so poor compornents that cannot connect to internet and do any useful commands which are avaiable in ordinal linux pc. So here is a demonstration to replace the root filesystem with more rich and useful one, though not really needed for the final goal but strongly recommended.
 
-1.Compile the OP-TEE and Project  
+0.Compile the OP-TEE and Project  
 Follow the instructions of OP-TEE document linked below.  
 When you want to use the trusted app and client app of my project, patch "build/common.mk" with "optee_ml_with_tee_common.mk.patch" before compiling entire op-tee project.
 https://optee.readthedocs.io/en/latest/building/devices/rpi3.html#build-instructions
