@@ -1,6 +1,7 @@
 *.o
 *.o.d
 *.o.cmd
+*.lds
 *.map
 *.elf
-
+*.ta
