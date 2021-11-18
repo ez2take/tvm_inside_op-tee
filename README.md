@@ -8,10 +8,10 @@ The rootfs provided by buildroot of op-tee has so poor compornents that cannot c
 
 1.Compile the OP-TEE and Project  
 Follow the instructions of OP-TEE document linked below.  
-When you want to compile trusted app and client app of my project, patch "build/common.mk" with "optee_ml_with_tee_common.mk.patch" before compiling entire op-tee project.
+When you want to use the trusted app and client app of my project, patch "build/common.mk" with "optee_ml_with_tee_common.mk.patch" before compiling entire op-tee project.
 https://optee.readthedocs.io/en/latest/building/devices/rpi3.html#build-instructions
 
-1. Download and decompress arch linux rootfs image
+1. Download and decompress arch linux rootfs image  
 There is no need for choosing arch linux but the rootfs must have glibc which is version > 2.30.
 > $ wget  http://os.archlinuxarm.org/os/ArchLinuxARM-rpi-aarch64-latest.tar.gz
 > $ mkdir rpi-rootfs
