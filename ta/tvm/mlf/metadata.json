@@ -1,0 +1,915 @@
+{
+  "executors": [
+    "graph"
+  ],
+  "export_datetime": "2021-10-21 01:49:18Z",
+  "memory": {
+    "functions": {
+      "main": [
+        {
+          "constants_size_bytes": 13956388,
+          "device": 1,
+          "io_size_bytes": 606116,
+          "workspace_size_bytes": 13545152
+        }
+      ],
+      "operator_functions": [
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_1",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 518512
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_5",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 691648
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_avg_pool2d",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 5120
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_softmax",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 4048
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_add",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 112
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip_4",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_4",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_layout_transform",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 0
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_3",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip_2",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_7",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 1792
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_7",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 1939008
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip_6",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 1792
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_add_3",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_6",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 896
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_1",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 112
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_6",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 1871872
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip_5",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 896
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_3",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 393440
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_8",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 4904640
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_2",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 112
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 311152
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 16
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_add_1",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_4",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 646112
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip_1",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 112
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_9",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 1665728
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip_7",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 609744
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 112
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_add_4",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 896
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_layout_transform_layout_transform",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 0
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_5",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_add_2",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_layout_transform_layout_transform_reshape",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 0
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_conv2d_NCHWc_add_clip_3",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 448
+            }
+          ]
+        },
+        {
+          "function_name": "tvmgen_default_fused_nn_contrib_depthwise_conv2d_NCHWc_add_clip_2",
+          "workspace": [
+            {
+              "device": 1,
+              "workspace_size_bytes": 590048
+            }
+          ]
+        }
+      ]
+    },
+    "sids": [
+      {
+        "input_binding": "input",
+        "size_bytes": 602112,
+        "storage_id": 0
+      },
+      {
+        "size_bytes": 602112,
+        "storage_id": 1
+      },
+      {
+        "input_binding": "p0",
+        "size_bytes": 3456,
+        "storage_id": 2
+      },
+      {
+        "input_binding": "p1",
+        "size_bytes": 128,
+        "storage_id": 3
+      },
+      {
+        "size_bytes": 1605632,
+        "storage_id": 4
+      },
+      {
+        "input_binding": "p2",
+        "size_bytes": 1152,
+        "storage_id": 5
+      },
+      {
+        "input_binding": "p3",
+        "size_bytes": 128,
+        "storage_id": 6
+      },
+      {
+        "input_binding": "p4",
+        "size_bytes": 1605632,
+        "storage_id": 7
+      },
+      {
+        "input_binding": "p5",
+        "size_bytes": 2048,
+        "storage_id": 8
+      },
+      {
+        "input_binding": "p6",
+        "size_bytes": 64,
+        "storage_id": 9
+      },
+      {
+        "input_binding": "p7",
+        "size_bytes": 802816,
+        "storage_id": 10
+      },
+      {
+        "input_binding": "p8",
+        "size_bytes": 6144,
+        "storage_id": 11
+      },
+      {
+        "input_binding": "p9",
+        "size_bytes": 384,
+        "storage_id": 12
+      },
+      {
+        "input_binding": "p10",
+        "size_bytes": 4816896,
+        "storage_id": 13
+      },
+      {
+        "input_binding": "p11",
+        "size_bytes": 3456,
+        "storage_id": 14
+      },
+      {
+        "input_binding": "p12",
+        "size_bytes": 384,
+        "storage_id": 15
+      },
+      {
+        "input_binding": "p13",
+        "size_bytes": 1204224,
+        "storage_id": 16
+      },
+      {
+        "input_binding": "p14",
+        "size_bytes": 9216,
+        "storage_id": 17
+      },
+      {
+        "input_binding": "p15",
+        "size_bytes": 96,
+        "storage_id": 18
+      },
+      {
+        "size_bytes": 301056,
+        "storage_id": 19
+      },
+      {
+        "input_binding": "p16",
+        "size_bytes": 13824,
+        "storage_id": 20
+      },
+      {
+        "input_binding": "p17",
+        "size_bytes": 576,
+        "storage_id": 21
+      },
+      {
+        "input_binding": "p18",
+        "size_bytes": 1806336,
+        "storage_id": 22
+      },
+      {
+        "input_binding": "p19",
+        "size_bytes": 5184,
+        "storage_id": 23
+      },
+      {
+        "input_binding": "p20",
+        "size_bytes": 576,
+        "storage_id": 24
+      },
+      {
+        "input_binding": "p21",
+        "size_bytes": 1806336,
+        "storage_id": 25
+      },
+      {
+        "input_binding": "p22",
+        "size_bytes": 13824,
+        "storage_id": 26
+      },
+      {
+        "input_binding": "p23",
+        "size_bytes": 96,
+        "storage_id": 27
+      },
+      {
+        "size_bytes": 301056,
+        "storage_id": 28
+      },
+      {
+        "input_binding": "p24",
+        "size_bytes": 13824,
+        "storage_id": 29
+      },
+      {
+        "input_binding": "p25",
+        "size_bytes": 576,
+        "storage_id": 30
+      },
+      {
+        "input_binding": "p26",
+        "size_bytes": 1806336,
+        "storage_id": 31
+      },
+      {
+        "input_binding": "p27",
+        "size_bytes": 5184,
+        "storage_id": 32
+      },
+      {
+        "input_binding": "p28",
+        "size_bytes": 576,
+        "storage_id": 33
+      },
+      {
+        "input_binding": "p29",
+        "size_bytes": 451584,
+        "storage_id": 34
+      },
+      {
+        "size_bytes": 18432,
+        "storage_id": 35
+      },
+      {
+        "input_binding": "p30",
+        "size_bytes": 128,
+        "storage_id": 36
+      },
+      {
+        "input_binding": "p31",
+        "size_bytes": 100352,
+        "storage_id": 37
+      },
+      {
+        "input_binding": "p32",
+        "size_bytes": 24576,
+        "storage_id": 38
+      },
+      {
+        "input_binding": "p33",
+        "size_bytes": 768,
+        "storage_id": 39
+      },
+      {
+        "input_binding": "p34",
+        "size_bytes": 602112,
+        "storage_id": 40
+      },
+      {
+        "input_binding": "p35",
+        "size_bytes": 6912,
+        "storage_id": 41
+      },
+      {
+        "input_binding": "p36",
+        "size_bytes": 768,
+        "storage_id": 42
+      },
+      {
+        "input_binding": "p37",
+        "size_bytes": 602112,
+        "storage_id": 43
+      },
+      {
+        "input_binding": "p38",
+        "size_bytes": 24576,
+        "storage_id": 44
+      },
+      {
+        "input_binding": "p39",
+        "size_bytes": 128,
+        "storage_id": 45
+      },
+      {
+        "input_binding": "p40",
+        "size_bytes": 100352,
+        "storage_id": 46
+      },
+      {
+        "input_binding": "p41",
+        "size_bytes": 24576,
+        "storage_id": 47
+      },
+      {
+        "input_binding": "p42",
+        "size_bytes": 768,
+        "storage_id": 48
+      },
+      {
+        "input_binding": "p43",
+        "size_bytes": 602112,
+        "storage_id": 49
+      },
+      {
+        "input_binding": "p44",
+        "size_bytes": 6912,
+        "storage_id": 50
+      },
+      {
+        "input_binding": "p45",
+        "size_bytes": 768,
+        "storage_id": 51
+      },
+      {
+        "input_binding": "p46",
+        "size_bytes": 602112,
+        "storage_id": 52
+      },
+      {
+        "input_binding": "p47",
+        "size_bytes": 24576,
+        "storage_id": 53
+      },
+      {
+        "input_binding": "p48",
+        "size_bytes": 128,
+        "storage_id": 54
+      },
+      {
+        "input_binding": "p49",
+        "size_bytes": 100352,
+        "storage_id": 55
+      },
+      {
+        "input_binding": "p50",
+        "size_bytes": 24576,
+        "storage_id": 56
+      },
+      {
+        "input_binding": "p51",
+        "size_bytes": 768,
+        "storage_id": 57
+      },
+      {
+        "input_binding": "p52",
+        "size_bytes": 602112,
+        "storage_id": 58
+      },
+      {
+        "input_binding": "p53",
+        "size_bytes": 6912,
+        "storage_id": 59
+      },
+      {
+        "input_binding": "p54",
+        "size_bytes": 768,
+        "storage_id": 60
+      },
+      {
+        "input_binding": "p55",
+        "size_bytes": 150528,
+        "storage_id": 61
+      },
+      {
+        "input_binding": "p56",
+        "size_bytes": 49152,
+        "storage_id": 62
+      },
+      {
+        "input_binding": "p57",
+        "size_bytes": 256,
+        "storage_id": 63
+      },
+      {
+        "input_binding": "p58",
+        "size_bytes": 50176,
+        "storage_id": 64
+      },
+      {
+        "input_binding": "p59",
+        "size_bytes": 98304,
+        "storage_id": 65
+      },
+      {
+        "input_binding": "p60",
+        "size_bytes": 1536,
+        "storage_id": 66
+      },
+      {
+        "input_binding": "p61",
+        "size_bytes": 301056,
+        "storage_id": 67
+      },
+      {
+        "input_binding": "p62",
+        "size_bytes": 13824,
+        "storage_id": 68
+      },
+      {
+        "input_binding": "p63",
+        "size_bytes": 1536,
+        "storage_id": 69
+      },
+      {
+        "input_binding": "p64",
+        "size_bytes": 301056,
+        "storage_id": 70
+      },
+      {
+        "input_binding": "p65",
+        "size_bytes": 98304,
+        "storage_id": 71
+      },
+      {
+        "input_binding": "p66",
+        "size_bytes": 256,
+        "storage_id": 72
+      },
+      {
+        "input_binding": "p67",
+        "size_bytes": 50176,
+        "storage_id": 73
+      },
+      {
+        "input_binding": "p68",
+        "size_bytes": 98304,
+        "storage_id": 74
+      },
+      {
+        "input_binding": "p69",
+        "size_bytes": 1536,
+        "storage_id": 75
+      },
+      {
+        "input_binding": "p70",
+        "size_bytes": 301056,
+        "storage_id": 76
+      },
+      {
+        "input_binding": "p71",
+        "size_bytes": 13824,
+        "storage_id": 77
+      },
+      {
+        "input_binding": "p72",
+        "size_bytes": 1536,
+        "storage_id": 78
+      },
+      {
+        "input_binding": "p73",
+        "size_bytes": 301056,
+        "storage_id": 79
+      },
+      {
+        "input_binding": "p74",
+        "size_bytes": 98304,
+        "storage_id": 80
+      },
+      {
+        "input_binding": "p75",
+        "size_bytes": 256,
+        "storage_id": 81
+      },
+      {
+        "input_binding": "p76",
+        "size_bytes": 50176,
+        "storage_id": 82
+      },
+      {
+        "input_binding": "p77",
+        "size_bytes": 98304,
+        "storage_id": 83
+      },
+      {
+        "input_binding": "p78",
+        "size_bytes": 1536,
+        "storage_id": 84
+      },
+      {
+        "input_binding": "p79",
+        "size_bytes": 301056,
+        "storage_id": 85
+      },
+      {
+        "input_binding": "p80",
+        "size_bytes": 13824,
+        "storage_id": 86
+      },
+      {
+        "input_binding": "p81",
+        "size_bytes": 1536,
+        "storage_id": 87
+      },
+      {
+        "input_binding": "p82",
+        "size_bytes": 301056,
+        "storage_id": 88
+      },
+      {
+        "input_binding": "p83",
+        "size_bytes": 98304,
+        "storage_id": 89
+      },
+      {
+        "input_binding": "p84",
+        "size_bytes": 256,
+        "storage_id": 90
+      },
+      {
+        "input_binding": "p85",
+        "size_bytes": 50176,
+        "storage_id": 91
+      },
+      {
+        "input_binding": "p86",
+        "size_bytes": 98304,
+        "storage_id": 92
+      },
+      {
+        "input_binding": "p87",
+        "size_bytes": 1536,
+        "storage_id": 93
+      },
+      {
+        "input_binding": "p88",
+        "size_bytes": 301056,
+        "storage_id": 94
+      },
+      {
+        "input_binding": "p89",
+        "size_bytes": 13824,
+        "storage_id": 95
+      },
+      {
+        "input_binding": "p90",
+        "size_bytes": 1536,
+        "storage_id": 96
+      },
+      {
+        "input_binding": "p91",
+        "size_bytes": 301056,
+        "storage_id": 97
+      },
+      {
+        "input_binding": "p92",
+        "size_bytes": 147456,
+        "storage_id": 98
+      },
+      {
+        "input_binding": "p93",
+        "size_bytes": 384,
+        "storage_id": 99
+      },
+      {
+        "input_binding": "p94",
+        "size_bytes": 75264,
+        "storage_id": 100
+      },
+      {
+        "input_binding": "p95",
+        "size_bytes": 221184,
+        "storage_id": 101
+      },
+      {
+        "input_binding": "p96",
+        "size_bytes": 2304,
+        "storage_id": 102
+      },
+      {
+        "input_binding": "p97",
+        "size_bytes": 451584,
+        "storage_id": 103
+      },
+      {
+        "input_binding": "p98",
+        "size_bytes": 20736,
+        "storage_id": 104
+      },
+      {
+        "input_binding": "p99",
+        "size_bytes": 2304,
+        "storage_id": 105
+      },
+      {
+        "input_binding": "p100",
+        "size_bytes": 451584,
+        "storage_id": 106
+      },
+      {
+        "input_binding": "p101",
+        "size_bytes": 221184,
+        "storage_id": 107
+      },
+      {
+        "input_binding": "p102",
+        "size_bytes": 384,
+        "storage_id": 108
+      },
+      {
+        "input_binding": "p103",
+        "size_bytes": 75264,
+        "storage_id": 109
+      },
+      {
+        "size_bytes": 221184,
+        "storage_id": 110
+      },
+      {
+        "size_bytes": 2304,
+        "storage_id": 111
+      },
+      {
+        "input_binding": "p104",
+        "size_bytes": 451584,
+        "storage_id": 112
+      },
+      {
+        "input_binding": "p105",
+        "size_bytes": 20736,
+        "storage_id": 113
+      }
+    ]
+  },
+  "model_name": "default",
+  "style": "full-model",
+  "target": {
+    "1": "c -keys=cpu -link-params=0 -runtime=c -system-lib=1"
+  },
+  "version": 5
+}

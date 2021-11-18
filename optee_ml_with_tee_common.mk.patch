@@ -1,0 +1,35 @@
+39a40,41
+> OPTEE_ML_WITH_TEE_PATH		?= $(ROOT)/optee_ml_with_tee
+> 
+506c508
+< optee-os-common:
+---
+> optee-os-common: optee_ml_with_tee-common
+510c512
+< optee-os-clean-common:
+---
+> optee-os-clean-common: optee_ml_with_tee-clean-common
+511a514,536
+> 
+> ################################################################################
+> # optee_ml_with_tee
+> ################################################################################
+> optee-client:
+> 	$(MAKE) -C $(OPTEE_CLIENT_PATH) CROSS_COMPILE=$(CROSS_COMPILE_NS_USER)
+> 
+> OPTEE_CLIENT_EXPORT = $(OPTEE_CLIENT_PATH)/out/export/usr
+> 
+> OPTEE_ML_WITH_TEE_COMMON_FLAGS ?= HOST_CROSS_COMPILE=$(CROSS_COMPILE_NS_USER)\
+> 	TA_CROSS_COMPILE=$(CROSS_COMPILE_S_USER) \
+> 	TA_DEV_KIT_DIR=$(OPTEE_OS_TA_DEV_KIT_DIR) \
+> 	TEEC_EXPORT=$(OPTEE_CLIENT_EXPORT)
+> 
+> .PHONY: optee_ml_with_tee-common
+> optee_ml_with_tee-common: optee-os optee-client
+> 	$(MAKE) -C $(OPTEE_ML_WITH_TEE_PATH) $(OPTEE_ML_WITH_TEE_COMMON_FLAGS)
+> 
+> OPTEE_ML_WITH_TEE_CLEAN_COMMON_FLAGS ?= TA_DEV_KIT_DIR=$(OPTEE_OS_TA_DEV_KIT_DIR)
+> 
+> .PHONY: optee_my_test-clean-common
+> optee_ml_with_tee-clean-common:
+> 	$(MAKE) -C $(OPTEE_ML_WITH_TEE_PATH) $(OPTEE_ML_WITH_TEE_CLEAN_COMMON_FLAGS) clean

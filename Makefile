@@ -1,0 +1,18 @@
+
+export V?=0
+
+HOST_CROSS_COMPILE	?=
+TA_CROSS_COMPILE	?=
+TA_DEV_KIT_DIR		?=
+TEEC_EXPORT		?=
+
+.PHONY: all
+all:
+	$(MAKE) -C host CROSS_COMPILE="$(HOST_CROSS_COMPILE)" TEEC_EXPORT=$(TEEC_EXPORT)
+	$(MAKE) -C ta/tvm CROSS_COMPILE="$(TA_CROSS_COMPILE)"
+	$(MAKE) -C ta CROSS_COMPILE="$(TA_CROSS_COMPILE)" TA_DEV_KIT_DIR=$(TA_DEV_KIT_DIR)
+
+.PHONY: clean
+clean:
+	$(MAKE) -C host clean
+	$(MAKE) -C ta clean
